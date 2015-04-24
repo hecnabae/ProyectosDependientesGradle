@@ -5,7 +5,7 @@ Cómo tratar las dependencias entre proyectos con Gradle
 En este caso deberiamos tener una estructura similar a la siguiente:
 
 > Proyecto
- --build.gradle
+> --build.gradle
  --settings.gradle
  --Dependencia
    --build.gradle
