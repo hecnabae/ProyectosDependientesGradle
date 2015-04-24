@@ -11,11 +11,11 @@ Proyecto
   |   |--build.gradle
 ```
 
-Para agregar la dependencia al proyecto, es necesario indicar a gradle que incluya la dependencia. Para ello, en el fichero "Proyecto > settings.gradle" hay que incluir el siguiente texto:
+Para agregar la dependencia al proyecto, es necesario indicar a gradle que incluya la dependencia. Para ello, en el fichero *Proyecto > settings.gradle* hay que incluir el siguiente texto:
 ```
 include ':Dependencia'
 ```
-Además, hay que indicar a gradle que compile la dependencia (Proyecto > build.gradle):
+Además, hay que indicar a gradle que compile la dependencia (*Proyecto > build.gradle*):
 ```
 dependencies {
   compile project(':Dependency')
